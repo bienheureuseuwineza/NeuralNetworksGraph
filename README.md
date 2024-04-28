@@ -42,8 +42,7 @@ II) Hardware requirements
 
 **Project Overview:**
 The Neural Network Visualization project aims to provide a user-friendly interface for
-visualizing neural networks. Developed by Blaise Mugisha and Uwineza Bienheureuse, this project
-utilizes various technologies such as ZK, JavaScript, and D3.js for the frontend visualization,
+visualizing neural networks.This project utilizes various technologies such as ZK, JavaScript, and D3.js for the frontend visualization,
 along with Spring Core, Hibernate, and Maven for backend functionalities.
 
 **Project Features:**
