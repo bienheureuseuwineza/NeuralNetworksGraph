@@ -72,6 +72,11 @@ For any inquiries or feedback regarding the project, please contact:
 Blaise Mugisha: blaisemugisha1@gmail.com
 Uwineza Bienheureuse: bienheureuseuwineza@gmail.com
 
+You can view the pictures below:
+
+![](D:\INTERNSHIP\NeuralNetworksGraph\one.png)
+
+![](D:\INTERNSHIP\NeuralNetworksGraph\two.png)
 
 
 
