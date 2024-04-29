@@ -11,8 +11,8 @@ Design Team : MUGISHA Blaise, Uwineza Bienheureuse.
 
 **I) Software requirements**
 1) Ubuntu OS 20.04 or higher/Mac OS Monterey12 or higher /Windows OS 10 or 11
-2) Maven
-3) JDK 17 or higher
+2) JDK 17 or higher
+3) Tomcat container
 
 **II) IDE**
 1) Intellij or Eclipse
@@ -20,7 +20,7 @@ Design Team : MUGISHA Blaise, Uwineza Bienheureuse.
 **III) Hardware requirements**
 1) Minimum 4 GB RAM
 2) Minimum 12 GB Available Disk Space
-3) Wifi Availability
+
 
 
 **Project Overview:**
