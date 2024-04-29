@@ -5,23 +5,22 @@ Welcome to Neural Network Graph
 Neural network graphs
 ---------------------
 
-App Name : Neural Networks
-Customer : --
-Development Team :
-MUGISHA Blaise (Software developer : February 2024 - till date),
-UWINEZA Bienheureuse (Software developer : February 2024 - till date),
+App Name : Neural Networks.
+1. Development Team :
+   * MUGISHA Blaise (Software developer : February 2024 - till date),
+   * UWINEZA Bienheureuse (Software developer : February 2024 - till date),
 
 Design Team : MUGISHA Blaise, Uwineza Bienheureuse.
 
 **I) Software requirements**
-1) Ubuntu OS/MacOs/Windows Os
+1) Ubuntu OS 20.04 or higher/Mac OS Monterey12 or higher /Windows OS 10 or 11
 2) Maven
 3) JDK 17 or higher
-4) Http Server
-5) Postgres/Mysql and drivers 
-6) Intellij or Eclipse
+
+IDE
+1) Intellij or Eclipse
    
-**II) Hardware requirements**
+**III) Hardware requirements**
 1) Minimum 4 GB RAM
 2) Minimum 12 GB Available Disk Space
 3) Wifi Availability
