@@ -14,7 +14,7 @@ Design Team : MUGISHA Blaise, Uwineza Bienheureuse.
 2) Maven
 3) JDK 17 or higher
 
-**II) IDE **
+**II) IDE**
 1) Intellij or Eclipse
    
 **III) Hardware requirements**
