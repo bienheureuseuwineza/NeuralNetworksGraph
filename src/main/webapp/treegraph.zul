@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<window apply="com.networkgraph.TreeGraphComposer">
-    <vlayout>
-        <textbox id="coordinatesTextbox" hflex="1" placeholder="Enter levels e.g., 3,2,1"/>
-        <button id="generateButton" label="Generate Tree Graph"/>
-        <charts id="chart" height="800px"/>
-    </vlayout>
-</window>

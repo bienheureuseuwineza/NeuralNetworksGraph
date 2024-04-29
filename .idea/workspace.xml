@@ -5,11 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6af2ef0b-adf5-4837-b414-439afa879b3f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/data/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/db.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/data/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/networkgraph/MyViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/networkgraph/NetworkViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/networkgraph/NeuralNetworkComposer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/networkgraph/TreeGraphComposer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/networkgraph/entity/LoadData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/networkgraph/entity/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/networkgraph/entity/NetworkGraphData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/networkgraph/entity/TreeGraphData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/networkgraph/services/MyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/networkgraph/services/impl/LogDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/networkgraph/services/impl/MyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/NetworkGraph.zul" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/final.zul" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.zul" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/networkgraph/MyViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/networkgraph/NetworkViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/networkgraph/NeuralNetworkComposer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/networkgraph/TreeGraphComposer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/networkgraph/entity/LoadData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/networkgraph/entity/Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/networkgraph/entity/NetworkGraphData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/networkgraph/entity/TreeGraphData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/networkgraph/services/MyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/networkgraph/services/impl/LogDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/networkgraph/services/impl/MyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +53,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -55,9 +80,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/INTERNSHIP/NeuralNetworksGraph&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bienh/Downloads/LearnSpringFramework-master/CarFactorySystem&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -85,14 +110,13 @@
       <command value="mvn clean -U install -DskipTests" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.NetworkGraph [jetty:run]">
     <configuration name="NetworkGraph [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
-            <option name="cmdOptions" />
             <option name="profiles">
               <set />
             </option>
@@ -101,13 +125,9 @@
                 <option value="jetty:run" />
               </list>
             </option>
-            <option name="multimoduleDir" />
             <option name="pomFileName" />
             <option name="profilesMap">
               <map />
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$" />
@@ -116,6 +136,14 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/webapp/script.js" working-dir="$PROJECT_DIR$/src/main/webapp">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.script.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -139,8 +167,6 @@
       <workItem from="1713944739238" duration="15034000" />
       <workItem from="1713965178796" duration="1289000" />
       <workItem from="1714028869047" duration="11066000" />
-      <workItem from="1714128365525" duration="5555000" />
-      <workItem from="1714286653805" duration="673000" />
     </task>
     <servers />
   </component>
@@ -150,10 +176,11 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/networkgraph/TreeGraphComposer.java</url>
-          <line>231</line>
-          <option name="timeStamp" value="3" />
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/webapp/script.js</url>
+          <line>238</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
