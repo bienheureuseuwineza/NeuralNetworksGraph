@@ -74,9 +74,9 @@ Uwineza Bienheureuse: bienheureuseuwineza@gmail.com
 
 You can view the pictures below:
 
-![](D:\INTERNSHIP\NeuralNetworksGraph\one.png)
+![](one.png)
 
-![](D:\INTERNSHIP\NeuralNetworksGraph\two.png)
+![](two.png)
 
 
 
