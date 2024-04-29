@@ -34,10 +34,9 @@ visualizing neural networks.This project utilizes various technologies such as Z
 
 **Technologies Used:**
 
-1. Frontend:
 * ZK: ZK framework is utilized for building the frontend user interface, providing rich and responsive components for a seamless user experience.
-* JavaScript: JavaScript is used for client-side scripting to handle dynamic interactions and data manipulation, with the help of D3.js, it generates interactive and
-  dynamic visualizations for the neural network graph
+* JavaScript: JavaScript is used for client-side scripting to handle dynamic interactions and data manipulation. With the help of D3.js, it generates interactive and
+  dynamic visualizations for the neural network graph.
 
 * Setup Instructions:
 To set up and run the project locally, follow these steps:
