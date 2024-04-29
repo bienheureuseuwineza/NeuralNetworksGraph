@@ -12,21 +12,8 @@ MUGISHA Blaise (Software developer : February 2024 - till date),
 UWINEZA Bienheureuse (Software developer : February 2024 - till date),
 
 Design Team : MUGISHA Blaise, Uwineza Bienheureuse.
-Management : ..
-Web URL : http://neuralnetworkgraph.com
 
-About this file
----------------
-The purpose of this file is to provide overview, setup instructions and background
-information of the project. If you have joined this project as a part of the development team, 
-please ensure this file is up to date.
-
-Note : Any dependencies added / modified to this project which affect the running of the code
-in this git repository must be listed in this file. All developers must ensure that the instructions 
-mentioned in this file are sufficient to enable a new developer to obtain a executable copy of the lastest 
-code in this repository, without invlvement from any other human assistance.
-
-I) Software requirements
+**I) Software requirements**
 1) Ubuntu OS/MacOs/Windows Os
 2) Maven
 3) JDK 17 or higher
@@ -34,7 +21,7 @@ I) Software requirements
 5) Postgres/Mysql and drivers 
 6) Intellij or Eclipse
    
-II) Hardware requirements
+**II) Hardware requirements**
 1) Minimum 4 GB RAM
 2) Minimum 12 GB Available Disk Space
 3) Wifi Availability
@@ -84,8 +71,7 @@ For any inquiries or feedback regarding the project, please contact:
 
 Blaise Mugisha: blaisemugisha1@gmail.com
 Uwineza Bienheureuse: bienheureuseuwineza@gmail.com
-Acknowledgments:
-We would like to express our gratitude to [Mentor/Institution/Contributor Name] for their guidance and support throughout the development of this project.
+
 
 
 
