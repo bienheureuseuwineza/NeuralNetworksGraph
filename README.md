@@ -14,7 +14,7 @@ Design Team : MUGISHA Blaise, Uwineza Bienheureuse.
 2) Maven
 3) JDK 17 or higher
 
-IDE
+**II) IDE **
 1) Intellij or Eclipse
    
 **III) Hardware requirements**
@@ -35,7 +35,7 @@ visualizing neural networks.This project utilizes various technologies such as Z
 **Technologies Used:**
 
 * ZK: ZK framework is utilized for building the frontend user interface, providing rich and responsive components for a seamless user experience.
-* JavaScript: JavaScript is used for client-side scripting to handle dynamic interactions and data manipulation. With the help of D3.js, it generates interactive and
+* JavaScript: JavaScript is used for client-side scripting to handle dynamic interactions and data manipulation. With the help of D3.js library, it generates interactive and
   dynamic visualizations for the neural network graph.
 
 * Setup Instructions:
