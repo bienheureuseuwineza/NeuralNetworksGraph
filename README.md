@@ -47,6 +47,8 @@ Navigate to the project directory and run mvn clean install to build the project
 Deploy the generated WAR file to a servlet container such as Apache Tomcat.
 Access the application through the provided URL and start visualizing neural networks!
 
+* You can also run this project on  TomCat Server url:http://localhost:8080/NetworkGraph_war/
+
 * Contributors:
 
 Blaise Mugisha (Software Developer)

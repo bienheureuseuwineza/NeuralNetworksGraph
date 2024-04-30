@@ -1,0 +1,58 @@
+<?link href="https://fonts.googleapis.com/css?family=Rubik"
+        rel="stylesheet" ?>
+
+<?link
+        rel="stylesheet"
+        href="https://unpkg.com/tachyons@4.8.1/css/tachyons.min.css"
+        ?>
+
+<?script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"?>
+
+<?script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/6.4.0/rzslider.min.js"?>
+
+<?link
+        href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/6.4.0/rzslider.min.css"
+        rel="stylesheet"?>
+<?link rel="stylesheet" href="style.css" ?>
+<?script defer src="script.js"?>
+
+
+<zk xmlns:h="native">
+    <div class="center tc mb4">
+        <h:p class="f3 fw1 pb1 tracked-tight"></h:p>
+
+        <div class="slider-container">
+            <div class="">Input Layer Height
+
+                <h:input
+                        type="number"
+                        id="inputLayerHeight"
+                        placeholder="Enter Input Layer Height"
+                        min="0"
+                />
+            </div>
+            <h:br/>
+            <div class="">Hidden Layer Count
+                <h:input
+                        type="number"
+                        id="hiddenLayerCount"
+                        placeholder="Enter Hidden Layer Height"
+                        min="0"
+                />
+            </div>
+            <h:br/>
+            <h:div class="">Output Layer Height
+                <h:input
+                        type="number"
+                        id="outputLayerHeight"
+                        placeholder="Enter Hidden Layer Height"
+                        min="0"
+                />
+            </h:div>
+            <h:br/>
+            <h:button onClick="updateAndDraw()">Display</h:button>
+        </div>
+
+        <h:div class="" id="neuralNet"/>
+    </div>
+</zk>
