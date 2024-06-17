@@ -1,58 +1,34 @@
-<?link href="https://fonts.googleapis.com/css?family=Rubik"
-        rel="stylesheet" ?>
+<?link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet" ?>
 
-<?link
-        rel="stylesheet"
-        href="https://unpkg.com/tachyons@4.8.1/css/tachyons.min.css"
-        ?>
+<?link rel="stylesheet"href="https://unpkg.com/tachyons@4.8.1/css/tachyons.min.css"?>
 
 <?script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"?>
 
 <?script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/6.4.0/rzslider.min.js"?>
 
-<?link
-        href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/6.4.0/rzslider.min.css"
-        rel="stylesheet"?>
+<?link href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/6.4.0/rzslider.min.css"rel="stylesheet"?>
 <?link rel="stylesheet" href="style.css" ?>
 <?script defer src="script.js"?>
-
+<?link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"?>
 
 <zk xmlns:h="native">
-    <div class="center tc mb4">
-        <h:p class="f3 fw1 pb1 tracked-tight"></h:p>
-
+    <div class="container text-center mt-5">
+        <h1 class="mb-4">Neural Network Configuration</h1>
         <div class="slider-container">
-            <div class="">Input Layer Height
-
-                <h:input
-                        type="number"
-                        id="inputLayerHeight"
-                        placeholder="Enter Input Layer Height"
-                        min="0"
-                />
+            <div class="form-group">
+                <label for="inputLayerHeight">Input Layer Height</label>
+                <h:input type="number" class="form-control" id="inputLayerHeight" placeholder="Enter Input Layer Height" min="0" />
             </div>
-            <h:br/>
-            <div class="">Hidden Layer Count
-                <h:input
-                        type="number"
-                        id="hiddenLayerCount"
-                        placeholder="Enter Hidden Layer Height"
-                        min="0"
-                />
+            <div class="form-group">
+                <label for="hiddenLayerCount">Hidden Layer Count</label>
+                <h:input type="number" class="form-control" id="hiddenLayerCount" placeholder="Enter Hidden Layer Height" min="0" />
             </div>
-            <h:br/>
-            <h:div class="">Output Layer Height
-                <h:input
-                        type="number"
-                        id="outputLayerHeight"
-                        placeholder="Enter Hidden Layer Height"
-                        min="0"
-                />
-            </h:div>
-            <h:br/>
-            <h:button onClick="updateAndDraw()">Display</h:button>
+            <div class="form-group">
+                <label for="outputLayerHeight">Output Layer Height</label>
+                <h:input type="number" class="form-control" id="outputLayerHeight" placeholder="Enter Output Layer Height" min="0" />
+            </div>
+            <h:button class="btn btn-primary" onClick="updateAndDraw()">Display</h:button>
         </div>
-
-        <h:div class="" id="neuralNet"/>
+        <div id="neuralNet" class="mt-5"></div>
     </div>
 </zk>
